@@ -1,0 +1,61 @@
+
+node app.js
+
+npm start
+
+
+
+
+
+
+
+
+
+
+tuto web ; Node JS Tutorial Français pour Débutant - Cours complet 8h [2022]
+api rest pour creer le backend d'une application web
+
+
+
+-------------
+Ici je rentre les lignes de commande shell
+
+david@mbp-david node-api-yu-gi % node app.js
+console.log()
+
+npm init
+permet d initialiser ton package.json
+
+npm run start
+    "start": "node app.js" modif de ton package.json
+    
+installer express
+npm i express --save
+
+Installer nodemon pour ne pas avoir a faire a chaaque fois la coupure du serveur pour les modif
+npm i nodemon --save-dev
+
+dans le package.json il faut bien faire le changement ;
+        "start": "node app.js"
+->
+        "start": "nodemon app.js"
+
+Les midellware ;
+grace npm on peut generer un middelware 
+npm install morgan --save-dev
+
+le favicon est un middelware car tu le feux sur chaque page , sur chaque req http
+npm install serve-favicon --save
+ 
+le midellware pour utiliser parseInt 
+npm install body-parser --save
+
+
+---------------
+
+On utilise un ORM depuis node.js pour faciliter les donnees sql 
+grace a sequelize
+npm install sequelize --save
+
+il faut juste un driver 
+npm install mariadb --save
