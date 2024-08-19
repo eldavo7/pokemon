@@ -1,4 +1,4 @@
-// chatgpt correction du code 
+// 1er branche pokemon.js
 
 const express = require('express')
 const morgan = require('morgan')
@@ -6,11 +6,11 @@ const favicon = require('serve-favicon')
 const bodyParser = require('body-parser')
 const { Sequelize, /* DataTypes */ } = require('sequelize')
 const { success, getUniqueId } = require('./helper.js')
-const path = require('path')  // Ajoutez cette ligne
-const moment = require('moment'); // cette ligne  aussi chatgpt
+const path = require('path') 
+const moment = require('moment');
 
 let pokemons = require('./mock-pokemon')
-// const PokemonModel =require('./src/models/pokemon.js')
+// const PokemonModel = require('./src/models/pokemon.js')
 
 
 const app = express() 
