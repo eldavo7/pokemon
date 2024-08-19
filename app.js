@@ -1,4 +1,5 @@
-// 1er branche pokemon.js
+// 1er branche  V2
+// Ajout de pokemon.js
 
 const express = require('express')
 const morgan = require('morgan')
